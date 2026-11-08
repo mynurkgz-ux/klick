@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кликер</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game">
+      <h1>Кликер</h1>
+
+      <section class="score-card" aria-live="polite">
+        <span id="score">0</span>
+        <small>очков</small>
+      </section>
+
+      <button id="click-button" class="click-button" type="button">
+        Клик!
+      </button>
+
+      <section class="shop">
+        <button id="upgrade-button" type="button">
+          <span>Усиление клика</span>
+          <strong id="upgrade-cost">10 очков</strong>
+        </button>
+        <p>За клик: <b id="click-power">1</b></p>
+      </section>
+
+      <button id="reset-button" class="reset-button" type="button">Сбросить игру</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
